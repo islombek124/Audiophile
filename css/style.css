@@ -16,6 +16,8 @@ header .header-content{
 }
 
 header .header-content menu nav ul li a{
+  font-family: 'Manrope';
+  letter-spacing: 2px;
   text-decoration: none;
   color:#ffffff;
 }
@@ -33,7 +35,7 @@ header .header-content menu nav{
   display: flex;
 }
 header .header-content menu nav .navbar-links{
-  margin-right:205px
+  margin-right:105px
 }
 header .header-content menu nav ul{
   display: flex;
@@ -41,4 +43,7 @@ header .header-content menu nav ul{
 }
 header .header-content menu nav ul li a img{
   margin-left:319px;
+}
+header .header-content .navbar-close{
+  
 }
