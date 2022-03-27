@@ -23,6 +23,7 @@ header .header-content menu nav ul li a{
 }
 
 header .header-content menu nav ul li{
+
   list-style: none;
   margin-top: 35px;
   margin-right: 34px;
@@ -31,19 +32,24 @@ header .header-content menu nav ul li{
 header .header-content .header-logo img{
   margin:35px 0 0 165px;
 }
+
 header .header-content menu nav{
   display: flex;
 }
+
 header .header-content menu nav .navbar-links{
   margin-right:513px
 }
+
 header .header-content menu nav ul{
   display: flex;
   margin-right: 10px;
 }
+
 header .header-content menu nav ul li a img{
   margin-left:385px;
 }
+
 header .header-content menu nav .nav-close{
   position: absolute;
   width: 1110px;
@@ -55,20 +61,17 @@ header .header-content menu nav .nav-close{
   mix-blend-mode: normal;
   opacity: 0.2;
 }
+
 .cart-shop{
   position: absolute;
   right: 245px;
 }
-header .header-section h2{
-  color: #FFFFFF;
-  font-family: 'Manrope';
-  font-weight: 400;
-  font-size: 14px;
-  line-height: 19px;
-  letter-spacing: 10px;
-  text-transform: uppercase;
-  height: 19px; 
+header .header-content .Bitmap{
   position: absolute;
-  left: 165px;
-  top: 225px;
+  width: 708.8px;
+  height: 886px;
+  left: 609.6px;
+  top: 0px;
+
+  background: url(../png/Image.png);
 }
