@@ -4,8 +4,6 @@
   margin: 0;
   padding: 0;
   box-sizing: border-box;
-}
-body{
   font-family: 'Manrope';
 }
 
@@ -21,7 +19,7 @@ header .header-content{
 header .header-content menu nav ul li a{
   letter-spacing: 2px;
   text-decoration: none;
-  color:#ffffff;
+  color:white;
 }
 
 header .header-content menu nav ul li{
@@ -54,7 +52,7 @@ header .header-content menu nav .nav-close{
   left: 165px;
   top: 96px;
 
-  background: #FFFFFF;
+  background: white;
   opacity: 0.2;
 }
 
@@ -65,8 +63,7 @@ header .header-content menu nav .nav-close{
 
 header .header-content menu nav h2{
   height: 19px;
-  color: #FFFFFF;
-  mix-blend-mode: normal;
+  color: white;
   opacity: 0.5;
   font-weight: 400;
   font-size: 14px;
@@ -81,8 +78,54 @@ header .header-content menu nav h2{
 header .header-content menu nav .bitmap{
   position: absolute;
   right: 220px;
-  
   width: 708.8px;
   height: 886px;
-  background: url(../png/Image.png);
 }
+
+header .header-content menu nav h1{
+  position: absolute;
+  height: 116px;
+  left: 165px;
+  right: 879px;
+  top: 268px;
+  font-family: 'Manrope';
+  font-weight: 700;
+  font-size: 56px;
+  line-height: 58px;
+  letter-spacing: 2px;
+  text-transform: uppercase;
+  color: white;
+}
+
+header .header-content menu nav .h2{
+  position: absolute;
+  left: 165px;
+  right: 926px;
+  top: 408px;
+  bottom: 246px;
+  font-family: 'Manrope';
+  font-weight: 500;
+  font-size: 15px;
+  line-height: 25px;
+  color: white;
+  opacity: 0.75;
+}
+
+header .header-content menu nav button{
+  position: absolute;
+  top: 523px;
+  left:165px;
+  right: 1115px;
+  background: #D87D4A;
+  width: 160px;
+  height: 48px;
+  font-family: 'Manrope';
+  font-weight: 700;
+  font-size: 13px;
+  line-height: 18px;
+  letter-spacing: 1px;
+  text-transform: uppercase;
+  color: white;
+  cursor: pointer;
+}
+
