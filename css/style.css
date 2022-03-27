@@ -5,6 +5,9 @@
   padding: 0;
   box-sizing: border-box;
 }
+body{
+  font-family: 'Manrope';
+}
 
 header .header-content{
   display: flex;
@@ -16,14 +19,12 @@ header .header-content{
 }
 
 header .header-content menu nav ul li a{
-  font-family: 'Manrope';
   letter-spacing: 2px;
   text-decoration: none;
   color:#ffffff;
 }
 
 header .header-content menu nav ul li{
-
   list-style: none;
   margin-top: 35px;
   margin-right: 34px;
@@ -31,10 +32,6 @@ header .header-content menu nav ul li{
 
 header .header-content .header-logo img{
   margin:35px 0 0 165px;
-}
-
-header .header-content menu nav{
-  display: flex;
 }
 
 header .header-content menu nav .navbar-links{
@@ -58,7 +55,6 @@ header .header-content menu nav .nav-close{
   top: 96px;
 
   background: #FFFFFF;
-  mix-blend-mode: normal;
   opacity: 0.2;
 }
 
@@ -66,12 +62,27 @@ header .header-content menu nav .nav-close{
   position: absolute;
   right: 245px;
 }
-header .header-content .Bitmap{
+
+header .header-content menu nav h2{
+  height: 19px;
+  color: #FFFFFF;
+  mix-blend-mode: normal;
+  opacity: 0.5;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 19px;
+  letter-spacing: 10px;
+  text-transform: uppercase;
   position: absolute;
+  top: 225px;
+  right: 1146px;
+}
+
+header .header-content menu nav .bitmap{
+  position: absolute;
+  right: 220px;
+  
   width: 708.8px;
   height: 886px;
-  left: 609.6px;
-  top: 0px;
-
   background: url(../png/Image.png);
 }
